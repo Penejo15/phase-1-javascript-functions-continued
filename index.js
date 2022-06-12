@@ -15,6 +15,6 @@ console.log(message)
         return "This Monday, I will work from home."    
 }
 
-function wrapAdjective(someValue) {
-    
-}
+function wrapAdjective(Peter = "*") {
+    return function (parameter = "special"){return `You are ${Peter}${parameter}${Peter}!`}
+    }
